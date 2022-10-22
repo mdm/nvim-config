@@ -18,9 +18,15 @@ return require('packer').startup(function(use)
     use 'sindrets/diffview.nvim'
     use 'TimUntersberger/neogit'
 
+    use 'mfussenegger/nvim-dap'
+    use 'rcarriga/nvim-dap-ui'
+    use 'nvim-telescope/telescope-dap.nvim'
+    use 'theHamsta/nvim-dap-virtual-text'
+
+    use 'hrsh7th/nvim-cmp'
     use 'hrsh7th/cmp-nvim-lsp'
     use 'hrsh7th/cmp-buffer'
-    use 'hrsh7th/nvim-cmp'
+    use 'hrsh7th/cmp-path'
     use 'L3MON4D3/LuaSnip'
     use 'saadparwaiz1/cmp_luasnip'
 end)
