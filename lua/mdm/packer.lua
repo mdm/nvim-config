@@ -12,9 +12,10 @@ return require('packer').startup(function(use)
     use 'nvim-lua/plenary.nvim'
     use { 'nvim-telescope/telescope.nvim', tag = '0.1.0' }
     use 'nvim-telescope/telescope-ui-select.nvim'
+    use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
+
     use 'neovim/nvim-lspconfig'
     use 'simrat39/rust-tools.nvim'
-    use 'mfussenegger/nvim-dap'
     use 'sindrets/diffview.nvim'
     use 'TimUntersberger/neogit'
 
