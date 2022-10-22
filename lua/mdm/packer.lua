@@ -23,6 +23,7 @@ return require('packer').startup(function(use)
     use 'simrat39/rust-tools.nvim'
     use 'sindrets/diffview.nvim'
     use 'TimUntersberger/neogit'
+    use 'numToStr/Comment.nvim'
 
     use 'mfussenegger/nvim-dap'
     use 'rcarriga/nvim-dap-ui'
