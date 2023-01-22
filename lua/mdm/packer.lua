@@ -19,10 +19,13 @@ return require('packer').startup(function(use)
     use 'nvim-telescope/telescope-ui-select.nvim'
     use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
 
+    use 'mbbill/undotree'
+    use 'folke/trouble.nvim'
     use 'neovim/nvim-lspconfig'
     use 'simrat39/rust-tools.nvim'
     use 'sindrets/diffview.nvim'
     use 'TimUntersberger/neogit'
+    use { 'akinsho/git-conflict.nvim', tag = "*" }
     use 'numToStr/Comment.nvim'
 
     use 'mfussenegger/nvim-dap'
@@ -36,4 +39,9 @@ return require('packer').startup(function(use)
     use 'hrsh7th/cmp-path'
     use 'L3MON4D3/LuaSnip'
     use 'saadparwaiz1/cmp_luasnip'
+
+    use 'williamboman/mason.nvim'
+    use 'williamboman/mason-lspconfig.nvim'
+
+    use { 'VonHeikemen/lsp-zero.nvim', branch = 'v1.x' }
 end)

@@ -3,3 +3,6 @@ require("neogit").setup {
         diffview = true
     }
 }
+
+require('git-conflict').setup()
+
