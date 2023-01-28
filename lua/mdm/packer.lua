@@ -26,7 +26,9 @@ return require('packer').startup(function(use)
     use 'sindrets/diffview.nvim'
     use 'TimUntersberger/neogit'
     use { 'akinsho/git-conflict.nvim', tag = "*" }
+    use 'lewis6991/gitsigns.nvim'
     use 'numToStr/Comment.nvim'
+    use 'lukas-reineke/indent-blankline.nvim'
 
     use 'mfussenegger/nvim-dap'
     use 'rcarriga/nvim-dap-ui'

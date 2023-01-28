@@ -4,5 +4,6 @@ require("neogit").setup {
     }
 }
 
+require('gitsigns').setup()
 require('git-conflict').setup()
 
