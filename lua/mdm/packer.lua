@@ -40,6 +40,8 @@ return require('packer').startup(function(use)
     use 'nvim-telescope/telescope-dap.nvim'
     use 'theHamsta/nvim-dap-virtual-text'
 
+    use 'vim-test/vim-test'
+
     use 'hrsh7th/nvim-cmp'
     use 'hrsh7th/cmp-nvim-lsp'
     use 'hrsh7th/cmp-buffer'
