@@ -19,6 +19,11 @@ return require('packer').startup(function(use)
       tag = "v3.*",
       requires = 'nvim-tree/nvim-web-devicons'
     }
+    use 'tpope/vim-unimpaired'
+    use {
+      'nvim-tree/nvim-tree.lua',
+      requires = 'nvim-tree/nvim-web-devicons'
+    }
 
     use { 'nvim-telescope/telescope.nvim', tag = '0.1.0' }
     use 'nvim-telescope/telescope-ui-select.nvim'
@@ -34,6 +39,7 @@ return require('packer').startup(function(use)
     use 'lewis6991/gitsigns.nvim'
     use 'numToStr/Comment.nvim'
     use 'lukas-reineke/indent-blankline.nvim'
+    use 'ahmedkhalf/project.nvim'
 
     use 'mfussenegger/nvim-dap'
     use 'rcarriga/nvim-dap-ui'
